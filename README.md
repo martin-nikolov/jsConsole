@@ -4,9 +4,9 @@
 
 [**See Demo**](https://rawgithub.com/flextry/jsConsole/master/JavaScript%20Console/index.html)  
 [**Read about jsConsole in my personal blog**](http://flextry.wordpress.com/2014/01/26/jsconsole/  )  
-[**Get jsConsole [HTML + CSS + JS]**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console.zip) - last modification on 25 Jan, 2014 [version 0.1]  
-[**Get latest version of the library (console.js)**](https://github.com/flextry/jsConsole/raw/master/download/Library%20v0.2.zip) - 25 Jan, 2014 [version 0.1]  
-[**Get jsConsole Solution Packet prepared for 10 tasks**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console%20-%20Solution.zip) - 25 Jan, 2014 [version 0.1]
+[**Get jsConsole [HTML + CSS + JS]**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console.zip) - last modification on 25 Jan, 2014 [version 0.2]  
+[**Get latest version of the library (console.js)**](https://github.com/flextry/jsConsole/raw/master/download/Library%20v0.2.zip) - 25 Jan, 2014 [version 0.2]  
+[**Get jsConsole Solution Packet prepared for 10 tasks**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console%20-%20Solution.zip) - 25 Jan, 2014 [version 0.2]
 
 Във връзка с курса по JavaScript в Telerik Academy, реших да направя една проста JavaScript конзола (на външен вид подобна на Win8), като целта е писане на JavaScript без да е нужно модифициране на съществуващия HTML и CSS. Структурната логика (HTML), презентационната логика (CSS) и бизнес логиката (JavaScript) са напълно отделени, което предоставя по-голяма компактност.
 
