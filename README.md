@@ -16,9 +16,9 @@ I provide a library (**console.js**) with pre-implemented **JavaScript** functio
 I have made an association with the **C#** language - functions are with **C#** similar names in PascalCase for division from **JavaScript** functions and entry point - Main method.
 
 ### Table of Contents
-- **[Requirements for working with the console](#pre-implemented-functions)**  
+- **[Requirements for working with the console](##requirements-for-working-with-the-console)**  
 - **[Pre-implemented functions](#pre-implemented-functions)**  
-- **[Using most important functions](#using-functions)**  
+- **[Using most important functions](#using-most-important-functions)**  
     - [SetFontSize](#setfontsizepixels)
     - [SetConsoleSize](#setconsolesizeheight-width)
     - [AccumulatePixels](#accumulatepixelspx1-px2)
