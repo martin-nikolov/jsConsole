@@ -3,14 +3,15 @@
 ![screenshot of console](https://raw.github.com/flextry/jsConsole/master/src/common/images/console.png)
 
 [**See Demo**](https://rawgithub.com/flextry/jsConsole/master/JavaScript%20Console/index.html)  
-[**Read about jsConsole in my personal blog**](http://flextry.wordpress.com/2014/01/26/jsconsole/  )  
+[**Read about jsConsole in my personal blog**](http://flextry.wordpress.com/2014/01/26/jsconsole/)  
+
 [**Get jsConsole [HTML + CSS + JS]**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console.zip) - last modification on 25 Jan, 2014 [version 0.2]  
 [**Get latest version of the library (console.js)**](https://github.com/flextry/jsConsole/raw/master/download/Library%20v0.2.zip) - 25 Jan, 2014 [version 0.2]  
 [**Get jsConsole Solution prepared for 10 tasks**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console%20-%20Solution.zip) - 25 Jan, 2014 [version 0.2]
 
 In connection with **JavaScript** course in [**Telerik Academy**](http://academy.telerik.com/) I decided to implement a simple **JavaScript Console** (similar appearance to `cmd` in Win8), that the aim is writing **JavaScript** without need for modify existing **HTML** and **CSS**. Structural logic (**HTML**), presentational logic (**CSS**) and business logic (**JavaScript**) are completely separated, providing more compactness.
 
-I provide a library (**console.js**) with pre-implemented **JavaScript** functions that take care of the modification of **HTML** code, simulation of IO operations, some mathematical operations, methods for easier parsing arrays, etc..
+I provide a library (**console.js**) with pre-implemented **JavaScript** functions that take care of the modification of **HTML** code, simulation of IO operations, some mathematical operations, methods for easier parsing arrays, etc.
 
 I have made an association with the **C#** language - functions are with **C#** similar names in PascalCase for division from **JavaScript** functions and entry point - Main method.
 
