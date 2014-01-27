@@ -21,13 +21,13 @@ I have made an association with the **C#** language - functions are with **C#** 
 - **[Using most important functions](#using-most-important-functions)**  
     - [SetFontSize](#setfontsizepixels)
     - [SetConsoleSize](#setconsolesizeheight-width)
-    - [AccumulatePixels](#accumulatepixelspx1-px2)
     - [ConsoleClear](#consoleclear)
     - [ReadLine](#readlinetextmessage-defaultvalue-idname)
     - [Write and WriteLine](#writemessage-and-writelinemessage)
     - [Format](#formatstr)
     - [GetRandomInt](#getrandomintmin-max)
     - [GetRandomFloat](#getrandomfloatmin-max-precision)
+    - [AccumulatePixels](#accumulatepixelspx1-px2)
     - [SplitBySeparator](#splitbyseparatorstring-separators)
     - [ParseIntCollection](#parseintcollectionstring-separators)
     - [ParseFloatCollection](#parsefloatcollectionstring-separators)
@@ -72,8 +72,6 @@ function SetFontSize(pixels) { ... }
  
 function SetConsoleSize(height, width) { ... }
  
-function AccumulatePixels(px1, px2) { ... }
- 
 //
 // Console Clear Methods
 //
@@ -107,6 +105,8 @@ function Format(str) { ... }
 function GetRandomInt(min, max) { ... }
  
 function GetRandomFloat(min, max, toFixed) { ... }
+
+function AccumulatePixels(px1, px2) { ... }
  
 //
 // Collection elements Parser
@@ -158,34 +158,6 @@ function Main(bufferElement) {
 ```
 
 ![screenshot of console](https://raw.github.com/flextry/jsConsole/master/src/common/images/console-size-demo.png)
-
-### AccumulatePixels(px1, px2)
-
-```js
-taskName = "AccumulatePixels";
- 
-function Main(bufferElement) {
- 
-    var a = AccumulatePixels('20px', 30); // 20 + 30 = 50px
-    var b = AccumulatePixels('20px', '30px'); // 20 + 30 = 50px
-    var c = AccumulatePixels(20, 30); // 20 + 30 = 50px
- 
-    WriteLine('20px + 30 = ' + a);
-    WriteLine('20px + 30px = ' + b);
-    WriteLine('20 + 30 = ' + c);
-    WriteLine();
- 
-    var d = AccumulatePixels('-20px', 30); // -20 + 30 = 10px
-    var e = AccumulatePixels('20px', -30); // 20 + (-30) = -10px
-    var f = AccumulatePixels(-20, -30); // -20 + (-30) = -50px
- 
-    WriteLine('-20px + 30 = ' + d);
-    WriteLine('20px + (-30) = ' + e);
-    WriteLine('-20 + (-30) = ' + f);
-}
-```
-
-![screenshot of console](https://raw.github.com/flextry/jsConsole/master/src/common/images/accumulate-pixels-demo.png)
 
 ### ConsoleClear()
 
@@ -298,6 +270,35 @@ function Main(bufferElement) {
 ```
 
 ![screenshot of console](https://raw.github.com/flextry/jsConsole/master/src/common/images/getrandomfloat-demo.png)
+
+### AccumulatePixels(px1, px2)
+
+```js
+taskName = "AccumulatePixels";
+ 
+function Main(bufferElement) {
+ 
+    var a = AccumulatePixels('20px', 30); // 20 + 30 = 50px
+    var b = AccumulatePixels('20px', '30px'); // 20 + 30 = 50px
+    var c = AccumulatePixels(20, 30); // 20 + 30 = 50px
+ 
+    WriteLine('20px + 30 = ' + a);
+    WriteLine('20px + 30px = ' + b);
+    WriteLine('20 + 30 = ' + c);
+    WriteLine();
+ 
+    var d = AccumulatePixels('-20px', 30); // -20 + 30 = 10px
+    var e = AccumulatePixels('20px', -30); // 20 + (-30) = -10px
+    var f = AccumulatePixels(-20, -30); // -20 + (-30) = -50px
+ 
+    WriteLine('-20px + 30 = ' + d);
+    WriteLine('20px + (-30) = ' + e);
+    WriteLine('-20 + (-30) = ' + f);
+}
+```
+
+![screenshot of console](https://raw.github.com/flextry/jsConsole/master/src/common/images/accumulate-pixels-demo.png)
+
 
 ### SplitBySeparator(string, separators)
 
