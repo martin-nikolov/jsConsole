@@ -5,9 +5,9 @@
 [**See Demo**](https://rawgithub.com/flextry/jsConsole/master/JavaScript%20Console/index.html)  
 [**Read about jsConsole in my personal blog**](http://flextry.wordpress.com/2014/01/26/jsconsole/)  
 
-[**Get jsConsole [HTML + CSS + JS]**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console.zip) - last modification on 25 Jan, 2014 [version 0.2]  
-[**Get latest version of the library (console.js)**](https://github.com/flextry/jsConsole/raw/master/download/Library%20v0.2.zip) - 25 Jan, 2014 [version 0.2]  
-[**Get jsConsole Solution prepared for 10 tasks**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console%20-%20Solution.zip) - 25 Jan, 2014 [version 0.2]
+[**Get jsConsole [HTML + CSS + JS]**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console.zip) - last modification on 25 Jan, 2014 [version 0.4]  
+[**Get latest version of the library (console.js)**](https://github.com/flextry/jsConsole/blob/master/download/Library-last-version.zip?raw=true) - 20 Feb, 2014 [version 0.4]  
+[**Get jsConsole Solution prepared for 10 tasks**](https://github.com/flextry/jsConsole/raw/master/download/JavaScript%20Console%20-%20Solution.zip) - 25 Jan, 2014 [version 0.4]
 
 In connection with **JavaScript** course in [**Telerik Academy**](http://academy.telerik.com/) I decided to implement a simple **JavaScript Console** (similar appearance to `cmd` in Win8), that the aim is writing **JavaScript** without need for modify existing **HTML** and **CSS**. Structural logic (**HTML**), presentational logic (**CSS**) and business logic (**JavaScript**) are completely separated, providing more compactness.
 
