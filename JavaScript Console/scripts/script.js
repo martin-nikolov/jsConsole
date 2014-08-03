@@ -1,5 +1,5 @@
-taskName = "Demo";
-message = "This is simple demo: <br/><br/>"
+taskName = "JavaScript Console";
+message = "This is a simple demo: <br/><br/>"
 
 function Main(bufferElement) {
 
